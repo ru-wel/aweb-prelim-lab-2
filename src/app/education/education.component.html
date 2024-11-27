@@ -1,0 +1,25 @@
+<div id="education">
+    <hr>
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Education</h3>
+            <br>
+            
+            @for (item of education; track $index) {
+                <div class="resume-item">
+                    <h4>{{ item.school }}</h4>
+                    <p><em>{{ item.level }}</em></p>
+                    <h5>{{ item.year }}</h5>
+                    <p>{{ item.address }}</p>
+                    <hr>
+                </div>
+            }
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+</div>
