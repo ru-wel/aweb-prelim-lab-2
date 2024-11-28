@@ -20,6 +20,14 @@ export class SkillsCertificationComponent {
       year: '2023'
     },
     {
+      certificate: "freeCodeCamp: Responsive Web Design",
+      year: '2024'
+    },
+    {
+      certificate: "freeCodeCamp: Legacy JavaScript Algorithms and Data Structures",
+      year: '2024'
+    },
+    {
       certificate: 'Cisco Certification in Introduction to Networks',
       year: '2024'
     },

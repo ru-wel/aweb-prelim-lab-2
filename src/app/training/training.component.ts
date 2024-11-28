@@ -9,5 +9,5 @@ import { SkillsCertificationComponent } from './skills-certification/skills-cert
   styleUrl: './training.component.css'
 })
 export class TrainingComponent {
-
+  languages: String[] = ['Python', 'Java', 'HTML, CSS, JS, Bootstrap', 'Node.js, Express.js, Vue.js, Angular']
 }
